@@ -1,0 +1,53 @@
+1. C:\Users\%username%\AppData\Local\Temp                                                        ---- Delete Everything
+
+-----------------------------------------------------------------------------------------------
+2. C:\Windows\Temp                                                                               ---- Delete Everything
+
+-----------------------------------------------------------------------------------------------
+3. C:\Windows\Prefetch                                                                           ---- Delete Everything
+ 
+-----------------------------------------------------------------------------------------------
+4. C:\Windows\SoftwareDistribution\Download                                                      ---- Delete Everything
+ (this is more old windows update content which is no longer needed)
+
+-----------------------------------------------------------------------------------------------
+5. NVIDIA Corporation Installer2 (Delete Everything in it)                                       ---- Delete Everything
+   C:\Program Files\NVIDIA Corporation\Installer2
+
+-----------------------------------------------------------------------------------------------
+6. NVIDIA Downloader (Delete Folders with Random Numbers)                                        ----IMPORANT Delete Folders with Random Numbers
+   C:\ProgramData\NVIDIA Corporation\Downloader
+
+-----------------------------------------------------------------------------------------------
+7. C:\Users\%username%\AppData\Local\NVIDIA\GLCache                                             ---- Delete Everything
+
+-----------------------------------------------------------------------------------------------
+8. C:\ProgramData\NVIDIA Corporation\NV_Cache                                                   ---- Delete Everything
+
+-----------------------------------------------------------------------------------------------
+9. Control Panel\All Control Panel Items\Recovery                                                ------ Configure System Restore Off
+
+-----------------------------------------------------------------------------------------------
+10. CMD as Admin and type "WSReset.exe"                                                         --------- To speed up Store and Remove Cache
+
+-----------------------------------------------------------------------------------------------
+11. CMD as Admin and type "ipconfig /flushdns"                                                  ----- removes dns cache and speed up your webpages
+
+-----------------------------------------------------------------------------------------------
+12. C:\Users\%username%\AppData\Local\NVIDIA Corporation\NV_Cach                                  ---- Delete Everything   If Exist
+-----------------------------------------------------------------------------------------------
+13. C:\AMD            ---- Delete Everything   If Exist
+-----------------------------------------------------------------------------------------------
+14. C:\Users\%username%\AppData\Local\Google\DriveFS                                               ---- Delete Everything   If Exist
+-----------------------------------------------------------------------------------------------
+15. C:\Users\%username%\AppData\Local\VS Revo Group\Revo Uninstaller Pro\BackUpsData
+-----------------------------------------------------------------------------------------------
+16. C:\OneDriveTemp
+-----------------------------------------------------------------------------------------------
+17. C:\SWSetup
+-----------------------------------------------------------------------------------------------
+18. C:\Portable\PatchMyPCITProCache
+-----------------------------------------------------------------------------------------------
+Run CMD as Admin and type "powercfg.exe /hibernate off"  then restart your pc 2 to 3 times then 
+again Run CMD as Admin and type "powercfg.exe /hibernate on" 
+this makes your pc boot 2 to 3 sec faster 
