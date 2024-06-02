@@ -48,6 +48,14 @@
 -----------------------------------------------------------------------------------------------
 18. C:\Portable\PatchMyPCITProCache
 -----------------------------------------------------------------------------------------------
+19. C:\Users\%username%\AppData\Roaming\Microsoft\Skype for Desktop\Crashpad\reports                    ---- Delete Everything   If Exist
+-----------------------------------------------------------------------------------------------
+20. C:\Users\%username%\AppData\Roaming\Microsoft\Teams\Partitions\msa\Local Storage\leveldb            ---- NOTE Delete .old files If Exist
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 Run CMD as Admin and type "powercfg.exe /hibernate off"  then restart your pc 2 to 3 times then 
 again Run CMD as Admin and type "powercfg.exe /hibernate on" 
 this makes your pc boot 2 to 3 sec faster 
