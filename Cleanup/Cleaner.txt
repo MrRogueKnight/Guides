@@ -25,7 +25,7 @@
 8. C:\ProgramData\NVIDIA Corporation\NV_Cache                                                   ---- Delete Everything
 
 -----------------------------------------------------------------------------------------------
-9. Control Panel\All Control Panel Items\Recovery                                                ------ Configure System Restore Off
+9. Control Panel\All Control Panel Items\Recovery                                               ------ Configure System Restore Off
 
 -----------------------------------------------------------------------------------------------
 10. CMD as Admin and type "WSReset.exe"                                                         --------- To speed up Store and Remove Cache
@@ -34,11 +34,11 @@
 11. CMD as Admin and type "ipconfig /flushdns"                                                  ----- removes dns cache and speed up your webpages
 
 -----------------------------------------------------------------------------------------------
-12. C:\Users\%username%\AppData\Local\NVIDIA Corporation\NV_Cach                                  ---- Delete Everything   If Exist
+12. C:\Users\%username%\AppData\Local\NVIDIA Corporation\NV_Cach                                ---- Delete Everything   If Exist
 -----------------------------------------------------------------------------------------------
 13. C:\AMD            ---- Delete Everything   If Exist
 -----------------------------------------------------------------------------------------------
-14. C:\Users\%username%\AppData\Local\Google\DriveFS                                               ---- Delete Everything   If Exist
+14. C:\Users\%username%\AppData\Local\Google\DriveFS                                             ---- Delete Everything   If Exist
 -----------------------------------------------------------------------------------------------
 15. C:\Users\%username%\AppData\Local\VS Revo Group\Revo Uninstaller Pro\BackUpsData
 -----------------------------------------------------------------------------------------------
@@ -52,9 +52,11 @@
 -----------------------------------------------------------------------------------------------
 20. C:\Users\%username%\AppData\Roaming\Microsoft\Teams\Partitions\msa\Local Storage\leveldb            ---- NOTE Delete .old files If Exist
 -----------------------------------------------------------------------------------------------
+21. C:\ProgramData\Microsoft\Windows\Containers\Dumps		         		                ---- NOTE Delete .dmp files If Exist
 -----------------------------------------------------------------------------------------------
+22. C:\Users\%username\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\commerce_subscription_db ---- NOTE Delete .old files If Exist
 -----------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------
+23. Scan for more such .old .dmp files Using Revo Uninstaller Pro 
 -----------------------------------------------------------------------------------------------
 Run CMD as Admin and type "powercfg.exe /hibernate off"  then restart your pc 2 to 3 times then 
 again Run CMD as Admin and type "powercfg.exe /hibernate on" 
